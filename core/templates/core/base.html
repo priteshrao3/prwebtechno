@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+        <!-- Bootstrap Min CSS -->
+        <link rel="stylesheet" href="{% static 'core/css/bootstrap.min.css'%}">
+        <!-- Animate Min CSS -->
+        <link rel="stylesheet" href="{% static 'core/css/animate.min.css'%}">
+        <!-- FlatIcon CSS -->
+        <link rel="stylesheet" href="{% static 'core/css/flaticon.css'%}">
+        <!-- Odometer Min CSS -->
+        <link rel="stylesheet" href="{% static 'core/css/odometer.min.css'%}">
+        <!-- Nice Select CSS -->
+        <link rel="stylesheet" href="{% static 'core/css/nice-select.css'%}">
+        <!-- MeanMenu CSS -->
+        <link rel="stylesheet" href="{% static 'core/css/meanmenu.css'%}">
+        <!-- Magnific Popup Min CSS -->
+        <link rel="stylesheet" href="{% static 'core/css/magnific-popup.min.css'%}">
+        <!-- Owl Carousel Min CSS -->
+        <link rel="stylesheet" href="{% static 'core/css/owl.carousel.min.css'%}">
+        <!-- Font Awesome Min CSS -->
+        <link rel="stylesheet" href="{% static 'core/css/fontawesome.min.css'%}">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="{% static 'core/css/style.css'%}">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="{% static 'core/css/responsive.css'%}">
+
+        <title>Best Web & App design & development Compony 2021</title>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <link rel="icon" type="image/png" href="{% static 'core/img/fevicon.png'%}">
+
+</head>
+
+<body>
+<!-- start header content area-->
+    <div class="header">
+        <a href="{% url 'home' %}" class="logo">
+            <img style="width: 100px;" src="{% static 'core/img/logo.png'%}">
+        </a>
+    
+        <div class="header-right text-center">
+            <a href="#about"><img style="height: 20px;" src="{% static 'core/img/phone.png'%}" > &nbsp;+91 761-809-1276 </a>
+            <a href="#contact"><img style="height: 23px; border-radius: 100%;" src="{% static 'core/img/emal1.png'%}" > &nbsp; prwebtechno@gmail.com</a>
+            <a href="#contact"><img style="height: 23px; border-radius: 100%;" src="{% static 'core/img/skype.png'%}" > &nbsp; prwebtechno</a>
+            
+            <a href="{% url 'contact' %}">
+                <button class="btn btn-info" style="text-align: left; color: white; margin-left: 20px;"
+                type="submit">Request A Quote</button>
+            </a>
+        </div>
+      </div>
+    <!-- end header content area-->
+    
+    <!--header-bottom-->
+    <div class="header-bottom-area container-fluid" id="sticker">
+        <div class="container">
+    
+            <!--mobile-menu-->
+            <nav class="navbar navbar-expand-lg navbar-light">
+    
+                <!--mobile logo-->
+                <div class="d-hidden mobile-logo">
+                    <div class="logo">
+                        <a href="{% url 'home' %}"><img src="{% static 'core/images/logo.png' %}" alt="" /></a>
+                    </div>
+                </div>
+    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto" data-aos="fade-left">
+                        <div class="dropdown">
+                            <p class="dropbtn mr-4">Search Engine Optimization</p>
+                            <div class="dropdown-content">
+                            <a href="#">SEO Services</a>
+                            <a href="#">Local SEO Services</a>
+                            <a href="#">Link Building Services</a>
+                            <a href="#">Content Writing Services</a>
+                            <a href="#">Ecommerce SEO Services</a>
+                            <a href="#">Email Marketing</a>
+                            <a href="#">PPC Management</a>
+                            <a href="#">App Store Optimization</a>
+                            </div>
+                        </div>
+        
+                        <div class="dropdown">
+                            <p class="dropbtn mr-4">Social Media Services</p>
+                            <div class="dropdown-content">
+                            <a href="#">Social Media Marketing</a>
+                            <a href="#">Facebook Advertising</a>
+                            <a href="#">Twitter Advertising</a>
+                            <a href="#">Linkedin Advertising</a>
+                            <a href="#">YouTube Marketing</a>
+                            <a href="#">ORM Services</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <p class="dropbtn mr-4">Web Services</p>
+                            <div class="dropdown-content">
+                            <a href="#">Static Website Design</a>
+                            <a href="#">Ecommerce Website</a>
+                            <a href="#">Website ReDesign</a>
+                            <a href="#">Custom Website</a>
+                            <a href="#">CMS Based Website</a>
+                            <a href="#">Python Development</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <p class="dropbtn mr-4">Mobile App Services</p>
+                            <div class="dropdown-content">
+                            <a href="#">Native Mobile Applications</a>
+                            <a href="#">Multi Plateform Mobile Applications</a>
+                            <a href="#">hybrid Mobile Applications</a>
+                            </div>
+                        </div>
+                        <li class="nav-item">
+                            <a class="mr-2 nav-link" href="{% url 'about' %}">Blog</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="mr-2 nav-link" href="{% url 'about' %}">Portfolio</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="mr-2 nav-link" href="{% url 'about' %}">About US</a>
+                        </li>
+        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="{% url 'about' %}">Contacts</a>
+                        </li>
+                    
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    </header>
+    <!--header-ends-->
+
+    {% block content %} {% endblock content %}
+     <!-- Start Subscribe Section -->
+     <section class="subscribe-section">
+        <div class="container-fluid">
+            <div class="subscribe-area-content">
+                <div class="subscribe-content">
+                    <span class="sub-title">Get Started Instantly!</span>
+                    <h2>Get the only new update from this newsletter</h2>
+
+                    <form class="newsletter-form">
+                        <input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required autocomplete="off">
+
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Subscribe Section -->
+
+<!-- Partner section -->
+    <div class="partner-section pt-100">
+        <div class="container">
+            <div class="partner-slider owl-carousel owl-theme">
+                <div class="partner-item">
+                    <a href="#">
+                        <img src="{% static 'core/img/partnar/1.png'%}" alt="partner">
+                    </a>
+                </div>
+
+                <div class="partner-item">
+                    <a href="#">
+                        <img src="{% static 'core/img/partnar/2.png'%}" alt="partner">
+                    </a>
+                </div>
+
+                <div class="partner-item">
+                    <a href="#">
+                        <img src="{% static 'core/img/partnar/3.png'%}" alt="partner">
+                    </a>
+                </div>
+
+                <div class="partner-item">
+                    <a href="#">
+                        <img src="{% static 'core/img/partnar/4.png'%}" alt="partner">
+                    </a>
+                </div>
+
+                <div class="partner-item">
+                    <a href="#">
+                        <img src="{% static 'core/img/partnar/1.png'%}" alt="partner">
+                    </a>
+                </div>
+
+                <div class="partner-item">
+                    <a href="#">
+                        <img src="{% static 'core/img/partnar/5.png'%}" alt="partner">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Partner section -->
+
+    <!-- Start Footer Section -->
+    <section class="footer-section ptb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer-area">
+                        <div class="footer-heading">
+                            <h3>About Us</h3>
+                        </div>
+
+                        <p>A.Roy webtechno is one of the best and rapidly growing digital marketing company in the area. We have vast experience of navigating the rapidly evolving digital marketing landscape and delivering quality digital marketing services.</p>
+                        <ul class="footer-social">
+                            <li>
+                                <a href="#" class="bg-3955bc">
+                                    <i class="flaticon-facebook-logo"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="bg-1da1f2">
+                                    <i class="flaticon-twitter"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="bg-004dff">
+                                    <i class="flaticon-paypal"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="bg-0273af">
+                                    <i class="flaticon-linkedin-letters"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="footer-item-area">
+                        <div class="footer-heading">
+                            <h3>Important Links</h3>
+                        </div>
+
+                        <ul class="footer-quick-links">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="projects.html">Project</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>    
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="footer-item-area">
+                        <div class="footer-heading">
+                            <h3>Featured Service</h3>
+                        </div>
+
+                        <ul class="footer-quick-links">
+                            <li><a href="#">SEO Marketing</a></li>
+                            <li><a href="#">SEO Services</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Pay-Per-Click</a></li>
+                            <li><a href="#">Social Media</a></li>
+                        </ul>
+                    </div>    
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer-heading">
+                        <h3>Contact</h3>
+                    </div>
+
+                    <div class="footer-info-contact">
+                        <i class="flaticon-call-answer"></i>
+                        <h3>Phone</h3>
+                        <span>+91 9120597542, <br>+91 7618091276</span>
+                    </div>
+
+                    <div class="footer-info-contact">
+                        <i class="flaticon-envelope"></i>
+                        <h3>Email</h3>
+                        <span><a href="mailto:pritesh@prwebtechno.com">abhishekroy68140@gmail.com</a></span>
+                    </div>
+
+                    <div class="footer-info-contact">
+                        <i class="flaticon-placeholder-filled-point"></i>
+                        <h3>Address</h3>
+                        <span> SIKANDERPUR, BALLIA, UTTAR PRADESH, INDIA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="default-animation">
+            <div class="shape-img1"><img src="{% static 'core/img/shape/12.svg'%}" alt="image"></div>
+            <div class="shape-img2"><img src="{% static 'core/img/shape/13.svg'%}" alt="image"></div>
+            <div class="shape-img3"><img src="{% static 'core/img/shape/14.png'%}" alt="image"></div>
+            <div class="shape-img4"><img src="{% static 'core/img/shape/15.png'%}" alt="image"></div>
+            <div class="shape-img5"><img src="{% static 'core/img/shape/2.png'%}" alt="image"></div>
+        </div> 
+    </section>
+    <!-- End Footer Section -->
+
+    <!-- Start Copy Right Section -->
+    <footer class="container-fluid bg-dark text-center p-2">
+        <small class="text-white">Copyright &copy; 2021 || Designed By GeekyShows || </small>
+        <a href=""><img src="{% static 'core/img/payment.png' %}" alt="" srcset="" class="img-fluid" height="2px"></a>
+    </footer> 
+    <!-- End Copy Right Section -->
+
+    <!-- Start Go Top Section -->
+    <div class="go-top">
+        <i class="fas fa-chevron-up"></i>
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <!-- End Go Top Section -->
+    
+    <!-- Start WhatsApp Section -->
+    <a class="whatsapp" href="https://wa.me/+917839287303?text=I%27m%20Interested%20in%20Your%20Digital%20Marketing%20Servises">
+        <img src="{% static 'core/img/whatsappicon.png'%}" width="50px" alt="whatsapp logo">
+    </a>
+    <!-- End WhatsApp Section -->
+
+  <!-- jQuery Min JS -->
+        <script src="{% static 'core/js/jquery.min.js'%}"></script>
+        <!-- Popper Min JS -->
+        <script src="{% static 'core/js/popper.min.js'%}"></script>
+        <!-- Bootstrap Min JS -->
+        <script src="{% static 'core/js/bootstrap.min.js'%}"></script>
+        <!-- MeanMenu JS  -->
+        <script src="{% static 'core/js/jquery.meanmenu.js'%}"></script>
+        <!-- Appear Min JS -->
+        <script src="{% static 'core/js/jquery.appear.min.js'%}"></script>
+        <!-- Odometer Min JS -->
+        <script src="{% static 'core/js/odometer.min.js'%}"></script>
+        <!-- Owl Carousel Min JS -->
+        <script src="{% static 'core/js/owl.carousel.min.js'%}"></script>
+        <!-- Magnific Popup Min JS -->
+        <script src="{% static 'core/js/jquery.magnific-popup.min.js'%}"></script>
+        <!-- Nice Select Min JS -->
+        <script src="{% static 'core/js/jquery.nice-select.min.js'%}"></script>
+        <!-- Mixitup Min JS -->
+        <script src="{% static 'core/js/jquery.mixitup.min.js'%}"></script>
+        <!-- WOW Min JS -->
+        <script src="{% static 'core/js/wow.min.js'%}"></script>
+        <!-- Parallax Min JS -->
+        <script src="{% static 'core/js/parallax.min.js'%}"></script>
+        <!-- Main JS -->
+        <script src="{% static 'core/js/main.js'%}"></script>  
+</body>
+</html>

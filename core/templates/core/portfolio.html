@@ -1,0 +1,115 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+
+        <!-- End Project Section -->
+        <section class="project-section">
+            <div class="container">
+                <div class="section-title">
+                    <p class="mt-5">Latest</p>
+                    <h4>Our Work Potfolio</h4>
+                </div>
+
+                <ul class="filter-menu"> 
+                    <li class="filter active" data-filter="all">All</li>
+                    <li class="filter" data-filter=".branding">Branding</li>
+                    <li class="filter" data-filter=".marketting">Marketing</li>
+                    <li class="filter" data-filter=".seo">SEO</li>
+                    <li class="filter" data-filter=".web">Web</li>
+                </ul> 
+
+                <div id="Container" class="row">
+                    <div class="col-lg-4 col-md-6 mix branding">
+                        <div class="single-project-box">
+                            <a href="https://www.shaze.in/">
+                                <img src="{% static 'core/img/project/Shaze.png'%}" alt="image">
+                            </a>
+
+                            <div class="project-hover-content">
+                                <h3>
+                                    <a href="https://www.shaze.in/">Shaze.in</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="col-lg-4 col-md-6 mix marketting">
+                        <div class="single-project-box">
+                            <a href="https://www.icanstay.com/">
+                                <img src="{% static 'core/img/project/icanstay.png'%}" alt="image">
+                            </a>
+
+                            <div class="project-hover-content">
+                                <h3>
+                                    <a href="https://www.icanstay.com/">Icanstay.com</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="col-lg-4 col-md-6 mix seo">
+                        <div class="single-project-box">
+                            <a href="https://lamprace.com/">
+                                <img src="{% static 'core/img/project/Lamprace.png'%}" alt="image">
+                            </a>
+
+                            <div class="project-hover-content">
+                                <h3>
+                                    <a href="https://lamprace.com/">Lamprace.com</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="col-lg-4 col-md-6 mix seo">
+                        <div class="single-project-box">
+                            <a href="https://www.masonja.co.za/">
+                                <img src="{% static 'core/img/project/Masonja.png'%}" alt="image">
+                            </a>
+
+                            <div class="project-hover-content">
+                                <h3>
+                                    <a href="https://www.masonja.co.za/">Masonja.co.za</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div> 
+
+
+                    <div class="col-lg-4 col-md-6 mix marketting">
+                        <div class="single-project-box">
+                            <img src="{% static 'core/img/project/Neotiling.png'%}" alt="image">
+
+                            <div class="project-hover-content">
+                                <h3>
+                                    <a href="#"> Online Media Management</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div> 
+
+
+                    <div class="col-lg-4 col-md-6 mix web">
+                        <div class="single-project-box">
+                            <a href="https://www.veative.com/">
+                                <img src="{% static 'core/img/project/veative.png'%}" alt="image">
+                            </a>
+
+                            <div class="project-hover-content">
+                                <h3>
+                                    <a href="https://www.veative.com/">Veative.com</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div> 
+
+                    
+                </div>
+            </div>
+        </section>
+        <!-- End Project Section -->
+
+{% endblock content %}
